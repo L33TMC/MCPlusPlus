@@ -4,7 +4,7 @@ mouseSensitivity:0.5
 fov:0.0
 gamma:100.0
 saturation:0.0
-renderDistance:6
+renderDistance:8
 guiScale:0
 particles:2
 bobView:true
@@ -15,7 +15,7 @@ difficulty:1
 fancyGraphics:false
 ao:0
 renderClouds:fast
-resourcePacks:["Better Vanilla 1.7.1 [1.12].zip","ClearPumpkin+.zip","Clear Glass Pack 1.11 or 1.12.zip","Redstone++ [16x] (v1.3 mc1.12).zip","PRJE Atmosphere 1.12.zip","Journey Map Mobs.zip","ctp_1.2_MCv3.zip","MinecraftFont.zip","Photon Frost\u0027s Clear Gui.zip","Without Java Ed 1.12.2-pre.zip"]
+resourcePacks:["Better Vanilla 1.7.1 [1.12].zip","Clear Glass Pack 1.11 or 1.12.zip","Journey Map Mobs.zip","ctp_1.2_MCv3.zip","Redstone++ [16x] (v1.3 mc1.12).zip","MinecraftFont.zip","L33TGUI 1.1.zip","Clear Vision 1.1.zip","Photon Frost\u0027s Clear Gui.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -24,10 +24,10 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
-snooperEnabled:true
+snooperEnabled:false
 fullscreen:false
 enableVsync:true
-useVbo:true
+useVbo:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
@@ -85,6 +85,9 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_key.toggleFoVChanges:51:SHIFT
+key_key.reloadSoundSystem:66:SHIFT
+key_key.toggleTimeOfDayOverlay:43:CONTROL
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
@@ -95,18 +98,19 @@ key_schematica.key.renderToggle:0
 key_schematica.key.printerToggle:0
 key_schematica.key.moveHere:0
 key_schematica.key.pickBlock:-98:SHIFT
+key_key.toastcontrol.clear:36
+key_key.dismount:42
+key_key.narrator:48:CONTROL
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
 key_FpsReducer.key.guiOpen:207
-key_key.toggleFoVChanges:51:SHIFT
-key_key.reloadSoundSystem:66:SHIFT
-key_key.toggleTimeOfDayOverlay:43:CONTROL
 key_Ungrab Mouse:22
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
 key_key.journeymap.minimap_preset:43
 key_key.journeymap.create_waypoint:48
+key_key.journeymap.toggle_waypoints:44
 key_key.journeymap.fullscreen_create_waypoint:48
 key_key.journeymap.fullscreen_chat_position:46
 key_key.journeymap.map_toggle_alt:36
@@ -117,7 +121,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-soundCategory_master:1.0
+soundCategory_master:0.5
 soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
